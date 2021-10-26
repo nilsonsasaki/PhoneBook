@@ -1,2 +1,3 @@
-class Start {
+fun main () {
+    MainForm()
 }

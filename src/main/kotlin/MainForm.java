@@ -1,5 +1,5 @@
 import javax.swing.*;
 
-public class Mainform extends JFrame{
+public class MainForm extends JFrame{
     private JPanel panel1;
 }
