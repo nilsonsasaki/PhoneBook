@@ -19,6 +19,11 @@ class ContactBusiness {
         }
     }
 
+    fun getContactCountDescription():String{
+        val list = getList()
+        return "${list.size} contatos"
+    }
+
     fun save(name: String, phone: String) {
 
         validate(name, phone)
