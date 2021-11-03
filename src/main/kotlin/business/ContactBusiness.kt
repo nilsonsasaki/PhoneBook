@@ -15,7 +15,7 @@ class ContactBusiness {
 
     private fun validateDelete(name: String, phone: String) {
         if (name.isBlank() || phone.isBlank()) {
-            throw Exception("É necessário selecionar um contatoantes de remover")
+            throw Exception("É necessário selecionar um contato antes de remover")
         }
     }
 
